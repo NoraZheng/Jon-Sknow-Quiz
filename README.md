@@ -1,5 +1,5 @@
 # Jon-Snow-Quiz
-A 5-question quiz about Game of Thrones character Jon Snow.
+A 5-question quiz about Game of Thrones character Jon Snow. Download everything then run index.html
 
 Features:
     jQuery
