@@ -18,7 +18,7 @@ section {
 }
 h1 {
 	font-size: 2em;
-	margin: .67em 0;
+	margin: 0.67em 0;
 }
 figcaption,
 figure,
@@ -78,10 +78,10 @@ sup {
 	vertical-align: baseline;
 }
 sub {
-	bottom: -.25em;
+	bottom: -0.25em;
 }
 sup {
-	top: -.5em;
+	top: -0.5em;
 }
 audio,
 video {
@@ -116,26 +116,26 @@ select {
 	text-transform: none;
 }
 button,
-html [type=button],
-[type=reset],
-[type=submit] {
+html [type='button'],
+[type='reset'],
+[type='submit'] {
 	-webkit-appearance: button;
 }
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
 	border-style: none;
 	padding: 0;
 }
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
 	outline: 1px dotted ButtonText;
 }
 fieldset {
-	padding: .35em .75em .625em;
+	padding: 0.35em 0.75em 0.625em;
 }
 legend {
 	box-sizing: border-box;
@@ -152,21 +152,21 @@ progress {
 textarea {
 	overflow: auto;
 }
-[type=checkbox],
-[type=radio] {
+[type='checkbox'],
+[type='radio'] {
 	box-sizing: border-box;
 	padding: 0;
 }
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
 	height: auto;
 }
-[type=search] {
+[type='search'] {
 	-webkit-appearance: textfield;
 	outline-offset: -2px;
 }
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
@@ -257,11 +257,15 @@ div.question {
 	margin: 50px auto;
 }
 
-div.question img {
-	border-radius: 5px;
-	max-width: 50%;
-	display: block;
+div.image {
 	margin: 30px auto;
+	width: 50%;
+	max-width: 400px;
+	min-width: 250px;
+}
+div.question img {
+	width: 100%;
+	display: block;
 }
 .modalBox {
 	display: none;
@@ -307,8 +311,8 @@ input {
 label {
 	margin-right: 30px;
 }
-input[type="submit"],
-input[type="reset"] {
+input[type='submit'],
+input[type='reset'] {
 	font-family: 'Cinzel', serif;
 	background: rgb(50, 50, 70);
 	border: 0;
@@ -317,8 +321,8 @@ input[type="reset"] {
 	padding: 10px 30px;
 }
 
-input[type="submit"]:hover,
-input[type="reset"]:hover {
+input[type='submit']:hover,
+input[type='reset']:hover {
 	background: rgb(20, 20, 40);
 	color: ivory;
 	transition: 0.5s;
